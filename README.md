@@ -1,10 +1,11 @@
+```mermaid
 flowchart TD
-    %% 定义样式
+    %% 定义样式（与你原图完全一致）
     classDef op fill:#e1f0fa,stroke:#6fa8dc,stroke-width:1px
     classDef judge fill:#fff2cc,stroke:#d6b656,stroke-width:1px
     classDef update fill:#d5e8d4,stroke:#82b366,stroke-width:1px
     classDef keep fill:#f0f0f0,stroke:#999999,stroke-width:1px
-    classDef title fill:#1f4e79,stroke:#1f4e79,color:white,font-weight:bold
+    classDef subgraphTitle fill:#1f4e79,stroke:#1f4e79,color:white,font-weight:bold
 
     %% 第一部分：初始化与迭代停止判断
     subgraph 第一部分：初始化与迭代停止判断
